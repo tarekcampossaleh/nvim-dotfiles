@@ -1,5 +1,5 @@
 require "lspconfig".diagnosticls.setup {
-  filetypes = {"javascript", "typescript", "go"},
+  filetypes = {"javascript", "typescript", "typescriptreact", "go"},
   cmd = {"diagnostic-languageserver", "--stdio", "--log-level", "2"},
   init_options = {
     linters = {
@@ -48,7 +48,9 @@ require "lspconfig".diagnosticls.setup {
     filetypes = {
       javascript = "eslint",
       typescript = "eslint",
+      typescriptreact = "eslint",
       go = "golangci-lint"
     }
   }
 }
+
