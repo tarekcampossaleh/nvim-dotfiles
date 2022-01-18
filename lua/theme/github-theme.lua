@@ -25,10 +25,10 @@ require "lualine".setup {
 }
 
 -- Lua
-require("github-theme").setup(
-  {
-    theme_style = "dark_default",
-    function_style = "bold",
-    dark_float = true,
-  }
-)
+--require("github-theme").setup(
+--  {
+--    theme_style = "dark_default",
+--    function_style = "bold",
+--    dark_float = true,
+--  }
+--)

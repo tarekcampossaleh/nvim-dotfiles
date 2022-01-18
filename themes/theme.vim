@@ -1,2 +1,1 @@
-colorscheme deus
-set background=dark
+colorscheme synthwave84

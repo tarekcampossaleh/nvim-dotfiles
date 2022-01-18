@@ -5,7 +5,7 @@ source $HOME/.config/nvim/general/configs.vim
 source $HOME/.config/nvim/vim-plug/plugins.vim
 source $HOME/.config/nvim/plug-config/nerd-commenter.vim
 "source $HOME/.config/nvim/themes/airline.vim
-"source $HOME/.config/nvim/themes/theme.vim
+source $HOME/.config/nvim/themes/theme.vim
 source $HOME/.config/nvim/plug-config/syntastic.vim
 source $HOME/.config/nvim/plug-config/vim-devicons.vim
 source $HOME/.config/nvim/plug-config/editorconfig.vim

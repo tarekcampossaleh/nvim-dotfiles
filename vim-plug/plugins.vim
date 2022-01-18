@@ -21,6 +21,9 @@ Plug 'akinsho/nvim-bufferline.lua'
 " GitHub Theme
 Plug 'projekt0n/github-nvim-theme'
 
+" Synthwave85 Theme
+Plug 'artanikin/vim-synthwave84'
+
 " Lualine
 Plug 'hoob3rt/lualine.nvim'
 Plug 'kyazdani42/nvim-web-devicons'
