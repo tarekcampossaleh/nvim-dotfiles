@@ -57,6 +57,14 @@ require("formatter").setup(
             stdin = true
           }
         end
+      },
+      elixir = {
+        function()
+          return {
+            exe = "mix format",
+            stdin = false 
+          }
+        end
       }
     }
   }
@@ -64,9 +72,17 @@ require("formatter").setup(
 
 vim.api.nvim_exec(
   [[
+  let g:enable_auto_format_write = 1
+function! FormatWriteConditional()
+    if g:enable_auto_format_write
+        execute 'FormatWrite'
+    else
+        execute 'w'
+    endif
+endfunction
 augroup FormatAutogroup
   autocmd!
-  autocmd BufWritePost *.js,*.rs,*.lua,*.go,*.ts,*.tsx FormatWrite
+  autocmd BufWritePost *.js,*.rs,*.lua,*.go,*.ts,*.tsx,*.ex,*.exs call FormatWriteConditional()
 augroup END
 ]],
   true
