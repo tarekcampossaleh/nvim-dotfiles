@@ -23,7 +23,7 @@ inoremap <A-w> <C-o>b
 inoremap <A-W> <C-o>w
 
 
-nnoremap <C-s> <cmd>w w<CR> " Set ctrl + s as :w
+nnoremap <C-s> <cmd>w<CR> " Set ctrl + s as :w
 
 nnoremap <A-x> :split<CR><C-w>j " Horizontal split
 nnoremap <A-v> :vsplit<CR><C-w>l " Vertical split
