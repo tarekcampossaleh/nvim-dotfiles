@@ -19,7 +19,11 @@ cnoremap <C-j> <Down>
 cnoremap <C-k> <Up>
 cnoremap <C-l> <Right>
 
-nnoremap <C-s> <cmd>w<CR> " Set ctrl + s as :w
+inoremap <A-w> <C-o>b
+inoremap <A-W> <C-o>w
+
+
+nnoremap <C-s> <cmd>w w<CR> " Set ctrl + s as :w
 
 nnoremap <A-x> :split<CR><C-w>j " Horizontal split
 nnoremap <A-v> :vsplit<CR><C-w>l " Vertical split
