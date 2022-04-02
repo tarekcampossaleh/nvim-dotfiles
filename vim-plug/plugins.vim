@@ -109,4 +109,9 @@ Plug 'wakatime/vim-wakatime'
 " Elixir
 Plug 'elixir-editors/vim-elixir'
 
+" .tsx Plugs
+Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+Plug 'HerringtonDarkholme/yats.vim'
+Plug 'maxmellon/vim-jsx-pretty'
+
 call plug#end()

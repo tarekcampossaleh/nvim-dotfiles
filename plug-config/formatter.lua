@@ -24,6 +24,7 @@ require("formatter").setup(
         eslintFmt
       },
       typescript = {prettierFmt, eslintFmt},
+      typescriptreact = {prettierFmt, eslintFmt},
       rust = {
         -- Rustfmt
         function()
